@@ -6,7 +6,7 @@ export function AppRouter () {
     return (
         <>
         <Navbar />
-        <Routes>
+        <Routes>    
             <Route path="/home" element={<HomePage />} />
             <Route path="/store" element={<StorePage />} />
             <Route path="/cart" element={<CartPage />} />
