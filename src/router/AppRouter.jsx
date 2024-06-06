@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { HomePage, StorePage, CartPage } from "../e-commers-app/pages";
-import { Navbar } from "../ui/Navbar";
+import { Navbar } from '../ui/components'
 
 export function AppRouter () {
     return (

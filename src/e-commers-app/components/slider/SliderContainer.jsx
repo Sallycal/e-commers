@@ -1,15 +1,14 @@
 import PropTypes from 'prop-types';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, EffectCoverflow } from 'swiper/modules';
+import { SlideCard } from './SliderCards'
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '../../../style.css';
-import { SlideCard } from './SlideCard';
 
 export function SliderContainer ({ categories }) {
-    console.log(categories);
     return (
         <Swiper
             breakpoints={{
